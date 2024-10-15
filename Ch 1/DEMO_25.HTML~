@@ -1,0 +1,75 @@
+ <HTML>
+	<HEAD>
+		<TITLE> DEMO OF TEXT HYPERLINK</TITLE>
+	</HEAD>
+	<BODY link=red alink=YELLOW vlink=blue>
+		THIS IS THE DEMO OF TEXT HYPERLINK
+		<A NAME="TOP">
+		<BR><a href="c.html"> C LANGUAGE BOTTOM SECTION </a>
+		<BR><a href="java.html" target="_window"> java LANGUAGE </a><BR>
+		<a href="#BOTTOM" > CLICK HERE TO GO BOTTOM</a>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<A NAME="BOTTOM">BOTTOM <BR>
+		<A HREF="#TOP"> CLICK HER TO GO TOP </A>
+
+	</BODY>
+</HTML>

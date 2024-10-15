@@ -1,0 +1,12 @@
+ <HTML>
+	<HEAD>
+		<TITLE> DEMO OF IMAGE HYPERLINK</TITLE>
+	</HEAD>
+	<BODY link=red alink=YELLOW vlink=green>
+		THIS IS THE DEMO OF IMAGE HYPERLINK
+		
+		<BR><a href="https://www.google.co.in/"><img src="google.gif"></a>
+		
+
+	</BODY>
+</HTML>

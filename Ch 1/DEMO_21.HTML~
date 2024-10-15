@@ -1,0 +1,23 @@
+ <HTML>
+	<HEAD>
+		<TITLE> DEMO OF SEPECIAL CHARACTERS</TITLE>
+	</HEAD>
+	<BODY>
+		GLS&nbsp;(I&RKD)&nbsp; ICA <BR>
+		10&LT;20 <BR>
+		20&GT;10 <BR>
+		BCA &AMP; MCA <BR>
+
+		100 &#8373 <BR>
+100 &#x20B5 <BR>
+		100 &#8356 <BR>
+		100 &#8377 <BR>
+		100 &#8360 <BR>
+		&#169; GLSICA <BR>
+		&#174; GLSICA <BR>
+		&#8482;	GLSICA <BR>
+		&#8704;X BELONGS TO f(x) <BR>
+		&#8721;X <BR>
+
+	</BODY>
+</HTML>

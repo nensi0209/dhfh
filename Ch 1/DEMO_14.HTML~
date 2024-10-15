@@ -1,0 +1,11 @@
+<HTML>
+	<HEAD>
+		<TITLE> DEMO OF EM TAG</TITLE>
+	</HEAD>
+	<BODY>
+		 <p>Do not forget to buy <EM>milk</EM> today.</p> 
+
+		<p>W3Schools.com - the world's largest web development site.</p>
+		<p><small>Copyright 1999-2050 by Refsnes Data</small></p>
+	</BODY>
+</HTML>

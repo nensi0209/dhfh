@@ -1,0 +1,15 @@
+ <HTML>
+	<HEAD>
+		<TITLE> DEMO OF ABBR AND CITE TAG</TITLE>
+	</HEAD>
+	<BODY>
+		The <abbr title="World Health Organization">WHO</abbr> was founded in 1948. 
+
+
+		<BR><BR><BR><BR>
+
+		
+		<img src="DEMO_19_JPG.jpg" width="220" height="277" alt="The Scream">
+		<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+	</BODY>
+</HTML>
