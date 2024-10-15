@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<TITLE>CSS  BACK GROUND COLOR DEMO </TITLE>
+<style>
+ul {
+    list-style-image: url('sqpurple1.gif');
+}
+
+body {background-color:#b0c4de;} 
+</style>
+</head>
+<body>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+</body>
+</html>
+

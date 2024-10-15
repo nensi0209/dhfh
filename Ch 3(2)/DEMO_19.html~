@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<TITLE>CSS  BACK GROUND IMAGE DEMO </TITLE>
+<style>
+ul {
+    list-style-image: url('sqpurple1.gif');
+}
+
+body {background-image:url('sqpurple.gif');
+	/*background-repeat:repeat-x;*/
+/*	background-repeat:repeat-y;*/
+	/*background-repeat:no-repeat;*/
+
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+</body>
+</html>
+
