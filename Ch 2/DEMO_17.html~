@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<HEAD>
+		<TITLE> DEMO OF Text Area</TITLE>
+	</HEAD>
+<body>
+
+	<form name="Personal Information">
+	
+		Enter your Address :<textarea rows="8"cols="20"></textarea>
+</forms>
+</body>
+</html>
+
+

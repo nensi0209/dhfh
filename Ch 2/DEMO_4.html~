@@ -1,0 +1,30 @@
+ <HTML>
+	<HEAD>
+		<TITLE> COL SPAN DEMO OF TABLE</TITLE>
+	</HEAD>
+	<BODY>
+		THIS IS THE DEMO OF TABLE<br>
+		
+		<Table align=center valign=middle width=70% Border=10 cellpadding=10 cellspacing=10 bgcolor=yellow bordercolor=blue>
+
+			 <tr>
+   				<th>Month</th>
+   				<th>Savings</th>
+  			</tr>
+  			<tr>
+    				<td>January</td>
+   	 			<td>$100</td>
+  			</tr>
+  			<tr>
+				<td>February</td>
+    				<td>$80</td>
+  			</tr>
+  			<tr>
+    				<td colspan="2" align=center>Sum: $180</td>
+  			</tr>
+
+			
+			<caption align=bottom>Tabel 1.1  </caption>		
+		</Table>
+	</BODY>
+</HTML>

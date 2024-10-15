@@ -1,0 +1,33 @@
+ <HTML>
+	<HEAD>
+		<TITLE> COL SPAN & ROW SPAN DEMO OF TABLE</TITLE>
+	</HEAD>
+	<BODY>
+		THIS IS THE DEMO OF TABLE<br>
+		
+		<Table align=center valign=middle width=70% Border=2 cellpadding=10 cellspacing=3>
+
+			<tr>
+    				<td border=2>1</td>
+    				<td colspan="3">2</td>
+    			</tr>
+  			<tr>
+    				<td rowspan="3">3</td>
+    				<td bgcolor=red>4</td>
+				<td bgcolor=red>5</td>
+    				<td rowspan="2"bgcolor=yellow>6</td>
+  			</tr>
+  			<tr>
+    				<td bgcolor=red>7</td>
+    				<td bgcolor=red>8</td>
+  			</tr>
+			<tr>
+    				<td colspan="2" bgcolor=yellow>9</td>
+    				<td bgcolor=yellow>10</td>
+  			</tr>
+
+			
+			<caption align=bottom>Tabel 1.1  </caption>		
+		</Table>
+	</BODY>
+</HTML>

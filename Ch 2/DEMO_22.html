@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The fieldset form attribute</h1>
+
+<form id="form1" name="form1">
+  <label for="favcolor">What is your favorite color?</label>
+  <input type="text" id="favcolor" name="favcolor">
+  <input type="submit">
+</form>
+
+
+
+<fieldset form="form1">
+<legend>FORM</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" form="form1"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" form="form1">
+</fieldset>
+
+</body>
+</html>
+

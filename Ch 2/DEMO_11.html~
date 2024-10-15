@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<HEAD>
+		<TITLE> DEMO OF FORM & SUBMIT</TITLE>
+	</HEAD>
+<body>
+
+	<form name="Personal Information">
+		First name: <input type="text" name="USER NAME"><br><br>
+		Last name : <input type="password" name="PASSWORD"><br>
+		<input type="SUBMIT" name="PASSWORD">
+	</form>
+
+	
+</body>
+</html>
+
+

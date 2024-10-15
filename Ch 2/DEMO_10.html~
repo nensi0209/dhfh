@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<HEAD>
+		<TITLE> DEMO OF FORM</TITLE>
+	</HEAD>
+<body>
+
+	<form name="Personal Information">
+		First name: <input type="text" name="FirstName"><br><br>
+		Last name : <input type="text" name="LastName"><br>
+	</form>
+
+	<hr><br><br><br>
+	
+	<form name="Educational Information">
+		Degree Name    : <input type="text" name="Degree"><br><br>
+		University Name: <input type="text" name="Uni_name"><br>
+		
+	</form>
+</body>
+</html>
+
+
