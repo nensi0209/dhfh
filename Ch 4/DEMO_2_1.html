@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> ELSE IF condition Demo</Title>
+	
+</head>
+
+<body>
+	<p>This example of else IF econdition  </p>
+
+		<script>
+			myFunction();
+		function myFunction() 
+		{
+				  //var hour = prompt("Enter the time in 24 hours formate :" );	    					
+		var hour = new Date().getHours(); 
+		var greeting;
+   	 	if (hour < 18)
+	 	{
+        	greeting = "Good day";
+		}	 
+		else
+		{
+       			greeting = "Good evening";
+    		}
+   		document.write("<h4>" +greeting + "</h4>");
+		document.write("<h4> Time:" +hour+ "</h4>");
+					
+				}
+		</script>
+		
+</body>
+</html> 
+

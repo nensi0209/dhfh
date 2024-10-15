@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> User Define Function- KiloMeter to Meter Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example KiloMeter to Meter Demo </p>
+
+		<script>
+			
+			var km = prompt("Enter the KiloMeter :" );
+			km = eval(km);
+			
+			var m = toMeter(km);
+
+			function toMeter(km) 
+			{
+				return (km * 1000);
+			}
+
+
+			document.write("<hr>");
+			document.write("<h4> The KiloMeter value = " + km + "  <h4>"); 
+			document.write("<h4> The Meter value = " + m + "  <h4>");
+			document.write("<hr>");
+		</script>
+
+</body>
+</html> 
+
+		

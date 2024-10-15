@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> User Define Function- Simple Interest </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example Simple Interest Demo </p>
+
+		<script>
+			
+			var p = prompt("Enter the principle :" );
+			p = eval(p);
+
+			var r = prompt("Enter the rate of interest :" );
+			r = eval(r);
+
+			var n = prompt("Enter the No of year :" );
+			n = eval(n);
+			
+			var inter = tosimpleinterest(p,r,n);
+
+			function tosimpleinterest(p,r,n) 
+			{
+				return (p * r * n)/100;
+			}
+
+
+			document.write("<hr>");
+			document.write("<h4> Ther Interest = " + inter + "  <h4>"); 
+			document.write("<hr>");
+		</script>
+
+</body>
+</html> 
+
+		

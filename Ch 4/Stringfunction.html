@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> String Object Demo </Title>
+	
+
+</head>
+
+<body>
+
+	<p>This example String Object Demo  </p>
+
+		
+
+		<script>
+			myFunction();
+			function myFunction() 
+			{
+				var x = prompt("What is your Name: " );
+				var y = prompt("What is your Surname: " );
+				var a = x.slice(3,7);
+                             var c= x.slice(7);             
+				var d = x.slice(-7);
+				document.write("<hr>");
+				document.write(a + "<br>");
+                             document.write(c + "<br>");
+			       document.write(d + "<br>"); 
+			       
+				document.write("<hr>");
+				var a = x.substring(3,7);
+				var c= x.substring(7);
+				var d = x.substring(-7);
+				document.write("<hr>");
+				document.write(a + "<br>");
+                             document.write(c + "<br>");
+			       document.write(d + "<br>"); 
+				
+				document.write("<hr>");
+				var a = x.substr(3,7);
+				var c= x.substr(7);
+				var d = x.substr(-7);
+				document.write("<hr>");
+				document.write(a + "<br>");
+                             document.write(c + "<br>");
+			       document.write(d + "<br>"); 
+			       
+		             document.write("<hr>");
+				var a = x.replace("a" , "aa");
+				document.write(a + "<br>");
+				document.write("<hr>");
+				
+				   document.write("<hr>");
+				var a = x.replace("a" , "aa");
+				document.write(a + "<br>");
+				document.write("<hr>");
+				
+				   document.write("<hr>");
+				   var a = x.toUpperCase();
+				document.write(a + "<br>");
+				document.write("<hr>");
+				
+				document.write("<hr>");
+				   var a = x.toLowerCase();
+				document.write(a + "<br>");
+				document.write("<hr>");
+			       
+			       document.write("<hr>");
+				   var a = x.concat(" ", y);
+				document.write(a + "<br>");
+				document.write("<hr>");
+				
+				document.write("<hr>");
+				   var a = x.charAt(3);
+				document.write(a + "<br>");
+				document.write("<hr>");
+				
+				document.write("<hr>");
+				   var a = x.search("u");
+				document.write(a + "<br>");
+				document.write("<hr>");
+				
+				document.write("<hr>");
+				   var a = x.length;
+				document.write(a + "<br>");
+				document.write("<hr>");
+				
+			}
+			
+			
+		</script>
+
+</body>
+</html> 
+
+		
