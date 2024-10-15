@@ -1,0 +1,25 @@
+<Html>
+<head>
+CLASS SELECTER DEMO
+<style>
+
+	.para1 {
+		    text-align: center;
+	 		color: red;
+		} 	
+	
+</style>
+</head>
+<Body>
+
+	<h1 class="para1" > GLS (I&RKD) INSTITUTE OF COMPUTER APPLICATION </h1>
+
+	<p class="para1"> 
+		DHTML allows scripting languages to change variables in a web page's definition language, which in turn affects the 			look and function of otherwise "static" HTML page content, after the page has been fully loaded and during the 			viewing	process. 
+	</p>
+
+	<p> 
+		DHTML allows scripting languages to change variables in a web page's definition language, which in turn affects the 			look and function of otherwise "static" HTML page content, after the page has been fully loaded and during the 			viewing	process. 
+	</p>
+</Body>
+</Html>

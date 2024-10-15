@@ -1,0 +1,34 @@
+<Html>
+<head>
+<TITLE>CSS STRUCTURE DEMO</TITLE>
+<style>
+
+	p
+	{
+		color:red;
+		text-align:center;
+	} 
+
+	h1 
+	{
+		color: black;
+	    	margin-left: 40px;
+	}
+
+	body 
+	{
+		background-color: yellow;
+	}
+</style>
+</head>
+<Body>
+
+	<h1> GLS (I&RKD) INSTITUTE OF COMPUTER APPLICATION </h1>
+
+	<p> DHTML allows scripting languages to change variables in a web page's definition language, which in turn affects the look 			and function of otherwise "static" HTML page content, after the page has been fully loaded and during the viewing 			process. Thus the dynamic characteristic of DHTML is the way it functions while a page is viewed, not in its ability 			to generate a unique page with each page load.
+	</p>
+
+
+	<h1> GLS (I&RKD) </h1>
+</Body>
+</Html>
