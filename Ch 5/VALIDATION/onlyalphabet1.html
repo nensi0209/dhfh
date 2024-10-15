@@ -1,0 +1,29 @@
+<html>
+<body>
+<script type='text/javascript'>
+function allLetter()
+      { 
+      var letters = /^[A-Za-z]+$/;
+      var str=document.getElementById("name").value;
+     
+      if(str.match(letters))
+      {
+      alert('Your name have accepted : you can try another');
+      return true;
+      }
+      else
+      {
+      alert('Please input alphabet characters only');
+      return false;
+      }
+      }
+
+
+</script>
+<form name="myform">
+Please Letters Only: <input type='text' name="txt1"  id="name"/>
+<input type='button' onclick="allLetter()" value='Validate Letter' />
+</form>
+</body>
+</html>
+

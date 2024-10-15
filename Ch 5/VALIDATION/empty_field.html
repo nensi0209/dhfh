@@ -1,0 +1,47 @@
+<html>
+<body>
+<script type='text/javascript'>
+function Empty(){
+if(document.myForm.txt1.value== "")
+	{
+		alert('Textbox is empty, Please enter a value');
+		document.myForm.txt1.focus();
+	}
+	else
+	{
+		document.getElementById("demo").innerHTML = 
+		document.myForm.txt1.value;
+	}
+
+}
+</script>
+<form name="myForm">
+Enter any value or left blank: <input type="text" id='txt1' name="txt1"/>
+<input type="button" onclick="Empty()" value="Validate Textbox" />
+</form>
+<p id="demo"></p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

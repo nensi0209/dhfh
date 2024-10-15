@@ -1,0 +1,40 @@
+
+<html>
+<body>
+<h1> STUDENT DETAIL FORM </h1>
+<p>Name: <input type="text" id="fname" onmouseover="msg()" onmouseout="mouseOut()"><BR>
+<p id="demo"></p>
+
+<p>Address: <input type="text" id="add" onmouseover="msg1()" onmouseout="mouseOut1()"></p>
+<p id="demo1"></p>
+
+<p>Phone Number: <input type="text" id="phone" onmouseover="msg2()" onmouseout="mouseOut2()"></p>
+<p id="demo2"></p>
+
+<script>
+function msg() {
+   document.getElementById("demo").innerHTML = "PLEASE ENTER YOUR NAME IN CAPITAL LATER ONLY";
+}
+
+function mouseOut() {
+    document.getElementById("demo").innerHTML = "";
+}
+
+function msg1() {
+   document.getElementById("demo1").innerHTML = "PLEASE ENTER YOUR FULL ADDRESS WITH PINCODE";
+}
+function mouseOut1() {
+    document.getElementById("demo1").innerHTML = "";
+}
+
+function msg2() {
+   document.getElementById("demo2").innerHTML = "PLEASE ENTER YOUR PHONE NUMBER WITH EXCANGE CODE";
+}
+function mouseOut2() {
+    document.getElementById("demo2").innerHTML = "";
+}
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password and Email Validation</title>
+    <script>
+        function validateForm() {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirmPassword").value;
+
+            // Simple email validation: check if it contains @ and .
+            if (email.indexOf("@") == -1 || email.indexOf(".") == -1) {
+                alert("Please enter a valid email address!");
+                return false;
+            }
+
+            // Check if passwords match
+            if (password !== confirmPassword) {
+                alert("Passwords do not match!");
+                return false;
+            }
+
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+
+    <h2>Signup Form</h2>
+    <form onsubmit="return validateForm()">
+        Email:
+        <input type="text" id="email" name="email"><br><br>
+
+        Password:
+        <input type="password" id="password" name="password"><br><br>
+
+        Confirm Password:
+        <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

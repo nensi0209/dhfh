@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>FIRST FORM DEMO - Value Capture</h1>
+
+<script>
+function myfun(form1) {
+   
+	var x = form1.elements[0].value;
+   	document.getElementById("demo").innerHTML = "Your name is :" + x;
+  
+	if (form1.Radio1[0].checked == true)
+		document.getElementById("demo1").innerHTML = "Gender is Male";
+
+	else if(form1.Radio1[1].checked == true)
+		 document.getElementById("demo1").innerHTML = "Gender is Female";
+	else
+			 document.getElementById("demo1").innerHTML = "Other";
+
+
+}
+</script>
+	
+<FORM id="FORM_1">
+	
+	Enter Your Name :<INPUT id="text" type="text"/> <br>
+	Gender :   <input type="radio" name="Radio1" value="male"> Male
+  			<input type="radio" name="Radio1" value="female"> Female
+			<input type="radio" name="Radio1" value="Other"> Other
+	<INPUT id="Button" type="Button" Value="Click me" onClick="myfun(form)"/>
+</FORM>
+<p id="demo"></p>
+<p id="demo1"></p>
+</body>
+</html>
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title> EVENT DEMO</Title>
+	
+</head>
+
+<body>
+	<p>This ONCHANGE EVENT   </p>
+	
+		<select id="mySelect">
+  			<option value="Audi">Audi
+  			<option value="BMW">BMW
+  			<option value="Mercedes">Mercedes
+  			<option value="Volvo">Volvo
+		</select>
+<button onclick="myFunction()">SELECT</button>
+
+<p id="demo"></p>
+
+		<script>
+			
+			function myFunction() 
+			{
+    				var x = document.getElementById("mySelect").value;
+    				//document.write("You selected: " + x);
+				document.getElementById("demo").innerHTML = "You selected: " + x;
+			}
+		</script>
+</body>
+</html> 
+

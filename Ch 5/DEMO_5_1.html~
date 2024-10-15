@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myBtn {
+    position: absolute;
+}
+</style>
+</head>
+<body>
+
+<p>A function is triggered when the user move mouse on the button field.</p>
+
+<button type="button" id="myBtn" onmouseover="myFunction()" onmouseout="myFunction2()">Set left position to 100 px</button>
+
+<script>
+function myFunction() {
+    document.getElementById("myBtn").style.left = "600px";
+}
+
+function myFunction2() {
+   document.getElementById("myBtn").style.left = "10px";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>FIRST FORM DEMO - Form Contro Name</h1>
+
+<script>
+function myfun(form1) {
+   
+   var x = form1.elements[1].id;
+   document.getElementById("demo").innerHTML = "Second control id is : " + x;
+  
+	 
+}
+</script>
+	
+<FORM id="FORM_1">
+	
+	Enter Your Name :<INPUT id="txt_1" type="text"/> <br>
+	Gender : <INPUT id="Radio1" type="Radio"/> Male
+	<INPUT id="Radio2" type="Radio"/> Female <br>
+	<INPUT id="Button" type="Button" Value="Click me" onClick="myfun(form)"/>
+</FORM>
+<p id="demo"></p>
+</body>
+</html>
+

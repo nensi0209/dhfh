@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+First Name: <input type="text" id="myText"><br>
+Last Name: <input type="text" id="myText1"><br>
+Address: <input type="text" id="myText2"><br>
+<button onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    var y = document.getElementById("myText1").value;
+ var z = document.getElementById("myText2").value;
+    document.getElementById("demo").innerHTML = "Student Name is <b>" + x + " " + y + "</b><br>Student Address is<b> " + z +"</b>";
+}
+</script>
+
+</body>
+</html>
+

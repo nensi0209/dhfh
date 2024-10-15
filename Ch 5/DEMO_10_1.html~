@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>A function is triggered when the user move mouse on the button field.</p>
+
+<button id="mybtn" onmousemove="myFunction()" onmouseout="myFunction2()">Click me</button>
+<script>
+function myFunction() {
+    document.getElementById("myBtn").style.left = "200px";
+}
+
+function myFunction2() {
+   document.getElementById("myBtn").style.left = "10px";
+}
+</script>
+
+</body>
+</html>
